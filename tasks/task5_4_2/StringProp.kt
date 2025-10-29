@@ -1,17 +1,14 @@
-// Task 5.4.1: string extension function
+ // Task 5.4.1: string extension function
 
 //String function extension 
-fun String.tooLong(): Boolean {
-    return this.length > 20
-}
+val String.tooLong: Boolean get() = this.length > 20
 
 //Function Test
 fun main() {
     print("Enter a string: ")
-    val inputString = readln()
-    val isTooLong = inputString.tooLong()
+    val input = readln()
 
-    if (isTooLong){
+    if (input.tooLong){
         println("String too long! (${input.length})")
     } else {
         println("String length is acceptable")

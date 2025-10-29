@@ -9,8 +9,8 @@ fun grade(mark: Int): String {
 }
 
 fun main(args: Array<String>){
-    val mark = readLine().toInt()
-    for (mark in grade){
-        
-      println("$mark is a ${grade(mark)}")}
+    for (arg in args){
+        val mark = arg.toInt()
+      println("$mark is a ${grade(mark)}")
+}
 }
