@@ -7,4 +7,7 @@ import io.kotest.matchers.shouldBe
 @Suppress("unused")
 class AnagramTest: StringSpec({
     // Write your unit tests here!
+    //A test to check the string lenghth for both anagrams is equal
+  
+    }
 })

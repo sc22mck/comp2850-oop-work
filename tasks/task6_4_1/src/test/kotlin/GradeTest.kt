@@ -24,5 +24,17 @@ class GradeTest : StringSpec({
         withClue("Mark=0") { grade(0) shouldBe "Fail" }
     }
 
-    // Add more tests here
+    // Add more tests here 
+    //Tests for marks below 0 and in the negative 
+    
+    "Grades for negative marks" {
+       withClue("Mark=-1") { grade(-1) shouldBe "?"}
+       withClue("Mark=-99") { grade(-99) shouldBe "?"}
+    }
+
+    // Tests for marks above 100 
+    "Grades above 100" {
+       withClue("Mark=101") { grade(101) shouldBe "?"}
+       withClue("Mark=199") { grade(199) shouldBe "?"}
+    }
 })
