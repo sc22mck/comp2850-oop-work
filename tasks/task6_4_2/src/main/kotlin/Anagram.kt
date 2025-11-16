@@ -2,6 +2,7 @@
 
 infix fun String.anagramOf(other: String) = when {
     this.length != other.length -> false
+    this.isEmpty() -> false // Empty strings must return false as they can't be anagrams of each other
     else -> {
         val theseChars = this.lowercase().toList().sorted()
         val otherChars = other.lowercase().toList().sorted()
