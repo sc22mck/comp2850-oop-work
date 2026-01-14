@@ -1,0 +1,42 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.1">
+  <diagram name="Page-1" id="A-9PuU60IyjCMMVIiKVO">
+    <mxGraphModel dx="1278" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AQ4Mhu7IxQ8HW46sEE5C-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Student" vertex="1">
+          <mxGeometry height="134" width="160" x="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AQ4Mhu7IxQ8HW46sEE5C-6" parent="AQ4Mhu7IxQ8HW46sEE5C-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;id: Int&lt;/div&gt;&lt;div&gt;name: String&lt;/div&gt;&lt;div&gt;degreeProgramme: String&lt;/div&gt;&lt;div&gt;levelOfStudy: Int&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AQ4Mhu7IxQ8HW46sEE5C-7" parent="AQ4Mhu7IxQ8HW46sEE5C-5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="AQ4Mhu7IxQ8HW46sEE5C-8" parent="AQ4Mhu7IxQ8HW46sEE5C-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ method(type): type" vertex="1">
+          <mxGeometry height="26" width="160" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="AQ4Mhu7IxQ8HW46sEE5C-9" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Module" vertex="1">
+          <mxGeometry height="150" width="220" x="400" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AQ4Mhu7IxQ8HW46sEE5C-10" parent="AQ4Mhu7IxQ8HW46sEE5C-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="modueCode: Int&lt;div&gt;title: String&lt;/div&gt;&lt;div&gt;numCredits: Int&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54" width="220" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AQ4Mhu7IxQ8HW46sEE5C-11" parent="AQ4Mhu7IxQ8HW46sEE5C-9" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="220" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AQ4Mhu7IxQ8HW46sEE5C-12" parent="AQ4Mhu7IxQ8HW46sEE5C-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="enrolStudent(student : Student)&lt;div&gt;generateTranscript(student : Student)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="62" width="220" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="AQ4Mhu7IxQ8HW46sEE5C-16" edge="1" parent="1" source="AQ4Mhu7IxQ8HW46sEE5C-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;shape=link;" target="AQ4Mhu7IxQ8HW46sEE5C-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AQ4Mhu7IxQ8HW46sEE5C-17" connectable="0" parent="AQ4Mhu7IxQ8HW46sEE5C-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="Enrols on" vertex="1">
+          <mxGeometry relative="1" x="-0.0012" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
